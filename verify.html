@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verify OTP</title>
+  <link rel="stylesheet" href="style.css">
+
+  
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Verify OTP</h2>
+    <input type="text" id="otpInput" placeholder="Enter OTP" maxlength="4">
+    <button onclick="verifyOtp()">Verify OTP</button>
+    <p id="timer" class="timer-text"></p>
+    <button onclick="resendOtp()" class="resend-btn" id="resend-btn">Resend OTP</button>
+  </div>
+  <div id="otpPopup" class="popup">
+    <p id="otpDisplay">OTP: </p>
+    <button onclick="copyOtpv()">Copy OTP</button>
+  </div>
+
+  <script src="script.js"></script>
+
+ 
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("bank.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    
+  }
+
+  .error-text {
+    color: #d32f2f;
+    font-size: 0.9em;
+    margin-top: 5px;
+  }
+  
+  .form-container input, .form-container button {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-container button {
+    background-color: #1d4ed8;
+    color: white;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    padding: 15px;
+  }
+
+  
+  .form-container button:hover {
+    background-color: #2563eb;
+  }
+
+  .timer-text {
+    color: #555;
+    font-size: 0.9em;
+    margin-top: 5px;
+  }
+
+  .resend-btn {
+    background-color: #1d4ed8;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .resend-btn:hover {
+    background-color: #2563eb;
+  }
+  
+  .popup {
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 200px;
+  }
+  
+  .popup p {
+    margin: 0 0 10px;
+    font-size: 1em;
+    font-weight: bold;
+  }
+  
+  .popup button {
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .popup button:hover {
+    background-color: #2563eb;
+  }
+  
